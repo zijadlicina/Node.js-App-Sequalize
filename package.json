@@ -1,0 +1,23 @@
+{
+  "name": "node.js-app-sequalize",
+  "version": "1.0.0",
+  "description": "Simple job find app for coders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zijad Ličina",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
