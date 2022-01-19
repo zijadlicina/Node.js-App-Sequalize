@@ -15,11 +15,9 @@ const Gig = db.define('gig', {
     budget: {
         type: Sequelize.STRING
     },
-    contact_email: {
+    contact_mail: {
         type: Sequelize.STRING
     },
 })
 
-module.exports = {
-    Gig
-}
+module.exports = Gig;
